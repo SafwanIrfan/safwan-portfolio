@@ -11,7 +11,7 @@ export const projects = [
   },
   {
     "id": 975086072,
-    "name": "MALAB Backend SpringBoot",
+    "name": "MALAB Backend",
     "description": "Malab - Court Management System backend using Java spring boot. Used PostgreSQL for database and authentication is being done through JWT.",
     "url": "https://github.com/SafwanIrfan/MALAB-Backend-SpringBoot",
     "homepage": "",
@@ -41,7 +41,7 @@ export const projects = [
   },
   {
     "id": 1153837374,
-    "name": "Tution Management System SpringBoot",
+    "name": "Tution Management System Backend",
     "description": "This system is used to digitalize manual attendance, generating reports and more. Making ease for teachers so they can focus on their course outlines. ",
     "url": "https://github.com/SafwanIrfan/tution-management-system-springboot",
     "homepage": null,
@@ -50,13 +50,13 @@ export const projects = [
     "topics": []
   },
   {
-    "id": 1124175173,
-    "name": "MALAB Website",
-    "description": "Website build with loveable for Malab app.",
-    "url": "https://github.com/SafwanIrfan/MALAB-Website",
-    "homepage": "https://malab.lovable.app/",
-    "languages": ["TypeScript", "React"],
-    "updated_at": "2026-02-07T09:49:26Z",
+    "id": 975096944,
+    "name": "Easy SSS",
+    "description": "In this project I have created clone of parity-deals using NextJs, Shadcn, Clerk for authentication and drizzle for database connection.",
+    "url": "https://github.com/SafwanIrfan/Easy-SSS-NextJs",
+    "homepage": "",
+    "languages": ["TypeScript", "Next.js", "Shadcn", "Drizzle"],
+    "updated_at": "2025-10-21T16:05:36Z",
     "topics": []
   },
   {
@@ -90,13 +90,13 @@ export const projects = [
     "topics": []
   },
   {
-    "id": 975096944,
-    "name": "Easy-SSS-NextJs",
-    "description": "In this project I have created clone of parity-deals using NextJs, Shadcn, Clerk for authentication and drizzle for database connection.",
-    "url": "https://github.com/SafwanIrfan/Easy-SSS-NextJs",
-    "homepage": "",
-    "languages": ["TypeScript", "Next.js", "Shadcn", "Drizzle"],
-    "updated_at": "2025-10-21T16:05:36Z",
+    "id": 1124175173,
+    "name": "MALAB Website",
+    "description": "Website build with loveable for Malab app.",
+    "url": "https://github.com/SafwanIrfan/MALAB-Website",
+    "homepage": "https://malab.lovable.app/",
+    "languages": ["TypeScript", "React"],
+    "updated_at": "2026-02-07T09:49:26Z",
     "topics": []
   },
   {
