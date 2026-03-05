@@ -22,7 +22,7 @@ export const skills =
         },
         {
             title: "Tools & Languages",
-            items: ["Java", "JavaScript", "TypeScript", "Python", "Postman", "IntelliJ IDEA", "WebStorm"]
+            items: ["Java", "JavaScript", "TypeScript", "Python", "Postman", "IntelliJ IDEA", "Figma", "Git"]
         },
         {
             title: "AI & Developer Productivity",
