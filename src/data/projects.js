@@ -2,7 +2,7 @@ export const projects = [
   {
     "id": 1160632947,
     "name": "Patient Management System (Backend Focused)",
-    "description": "Java microservices architecture using Spring Boot, Spring Cloud, Kafka, gRPC, Eureka Service Discovery, API Gateway, and Docker, implementing event-driven communication, synchronous inter-service calls, centralized routing, and scalable distributed system patterns for production-ready applications.",
+    "description": "Java-based microservices with Spring Boot, Kafka, gRPC, Eureka, and Docker for scalable, event-driven distributed systems.",
     "url": "https://github.com/SafwanIrfan/patient-management-system-backend",
     "homepage": "",
     "languages": ["Java", "Spring Boot", "Kafka", "gRPC", "Docker"],
