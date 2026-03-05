@@ -21,7 +21,7 @@ const Contact = () => {
                         Let’s connect and build scalable, high-quality applications together.
                     </p>
 
-                    <a href="mailto:mohdsafwan2k5@gmail.com" className="inline-block text-3xl md:text-5xl font-display font-bold text-white border-b-2 border-white pb-4 hover:text-muted hover:border-muted transition-colors tracking-tight">
+                    <a href="mailto:mohdsafwan2k5@gmail.com" className="inline-block text-2xl sm:text-3xl md:text-5xl font-display font-bold text-white border-b-2 border-white pb-2 md:pb-4 hover:text-muted hover:border-muted transition-colors tracking-tight break-all">
                         mohdsafwan2k5@gmail.com
                     </a>
                 </motion.div>

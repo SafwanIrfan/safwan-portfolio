@@ -14,7 +14,7 @@ const AnimatedText = () => {
     }, []);
 
     return (
-        <div className="relative inline-block h-[1.2em] w-full text-left overflow-hidden align-bottom">
+        <div className="relative block h-[2.5em] sm:h-[1.2em] w-full text-left overflow-hidden align-top sm:align-bottom">
             <AnimatePresence mode="popLayout">
                 <motion.span
                     key={index}
@@ -22,7 +22,7 @@ const AnimatedText = () => {
                     animate={{ y: "0%", opacity: 1 }}
                     exit={{ y: "-100%", opacity: 0 }}
                     transition={{ duration: 0.6, ease: [0.16, 1, 0.3, 1] }}
-                    className="absolute left-0 text-white font-bold"
+                    className="absolute left-0 w-full text-white font-bold"
                 >
                     {words[index]}
                 </motion.span>
@@ -33,9 +33,9 @@ const AnimatedText = () => {
 
 const Hero = () => {
     return (
-        <section id="hero" className="min-h-screen flex flex-col justify-center px-6 md:px-12 pt-32 pb-20 relative">
+        <section id="hero" className="min-h-screen flex flex-col justify-center px-6 md:px-12 pt-32 pb-20 relative overflow-hidden">
             {/* Subtle background glow */}
-            <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-white/[0.02] rounded-full blur-[100px] pointer-events-none"></div>
+            <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[300px] h-[300px] md:w-[600px] md:h-[600px] bg-white/[0.02] rounded-full blur-[80px] md:blur-[100px] pointer-events-none"></div>
 
             <div className="max-w-7xl mx-auto w-full relative z-10">
                 <motion.div

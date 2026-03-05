@@ -6,8 +6,19 @@ const Skills = () => {
     return (
         <section id="skills" className="py-32 px-6 md:px-12 bg-background">
             <div className="max-w-7xl mx-auto">
+                <motion.div
+                    initial={{ opacity: 0, y: 30 }}
+                    whileInView={{ opacity: 1, y: 0 }}
+                    viewport={{ once: true }}
+                    transition={{ duration: 0.6 }}
+                    className="mb-16"
+                >
+                    <h2 className="text-5xl md:text-7xl font-display font-bold text-white tracking-tight">
+                        Skills & <span className="text-muted">Technologies</span>
+                    </h2>
+                </motion.div>
 
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12 border-t border-accent pt-8">
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12 border-t border-accent pt-12">
                     {skills.map((category, index) => (
                         <motion.div
                             key={index}
