@@ -10,7 +10,7 @@ export const skills =
         },
         {
             title: "Frontend",
-            items: ["React.js", "React Native", "TypeScript", "HTML5", "CSS3", "Responsive UI", "API Integration"]
+            items: ["React.js", "Next.js", "React Native", "TypeScript", "HTML5", "CSS3", "Responsive UI", "API Integration"]
         },
         {
             title: "DevOps & Cloud",
